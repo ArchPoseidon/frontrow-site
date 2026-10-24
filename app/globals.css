@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* All look-and-feel lives in these tokens so the UI can be restyled in one file. */
+:root {
+  /* Stub: ink-black stage, paper tickets. Every look-and-feel value lives here. */
+  --background: #0d0911;
+  --foreground: #f6eff8;
+  --surface: #181020;
+  --surface-border: #31233b;
+  --muted: #a093ad;
+  --accent: #f3e4f1; /* ticket paper, a touch of orchid */
+  --accent-foreground: #141414;
+  --paper: #f3e4f1;
+  --paper-ink: #1a1022;
+  --wordmark: #f0e8f1; /* slightly off-white logo and display type */
+  --wordmark-soft: #d3b4da; /* dusty orchid, pulled from the photos */
+  --magenta: #e45bd0; /* highlight: links, wordmark, active states */
+  --urgency-red: #ff3b5c;
+  --urgency-amber: #ffa630;
+  --urgency-info: #64748b;
+  --tier-open: #35d49a;
+  --stage-live: #ff3b5c; /* tickets on sale */
+  --stage-soon: #9b6bff; /* confirmed, go-live date announced */
+  --stage-announced: #ffa630; /* announced, tickets not live */
+  --stage-soldout: #57534e;
+  --radius: 0.375rem;
+  --space-gutter: 1rem;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --background: #f7eff6;
+  --foreground: #161616;
+  --surface: #ffffff;
+  --surface-border: #dccbd9;
+  --muted: #6b675d;
+  --accent: #1a1022;
+  --accent-foreground: #f7eff6;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-border: var(--surface-border);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-magenta: var(--magenta);
+  --color-wordmark: var(--wordmark);
+  --color-wordmark-soft: var(--wordmark-soft);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-stage-live: var(--stage-live);
+  --color-stage-soon: var(--stage-soon);
+  --color-stage-announced: var(--stage-announced);
+  --color-stage-soldout: var(--stage-soldout);
+  --color-urgency-red: var(--urgency-red);
+  --color-urgency-amber: var(--urgency-amber);
+  --color-urgency-info: var(--urgency-info);
+  --radius-card: var(--radius);
+  --font-sans: var(--font-instrument), system-ui, sans-serif;
+  --font-display: var(--font-big-shoulders), Impact, sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* ---------- Stub components ---------- */
+.font-display { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.005em; }
+
+@keyframes backdrop-in { from { opacity: 0; } to { opacity: 1; } }
+.backdrop-in { animation: backdrop-in 1.4s ease both; }
+
+/* Paper ticket */
+.ticket-paper { background: var(--paper); color: var(--paper-ink); }
+.perf { border-top: 2px dashed rgba(22, 22, 22, 0.28); }
+
+/* Flip faces (card flips between concert / artist photo / tiers) */
+.flip { position: relative; perspective: 1100px; }
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  transition: transform 0.85s cubic-bezier(0.3, 0.7, 0.2, 1), opacity 0.5s;
+  transform-origin: 50% 50%;
+}
+.flip-face[data-pos="prev"] { transform: rotateY(-100deg); opacity: 0; pointer-events: none; }
+.flip-face[data-pos="next"] { transform: rotateY(100deg); opacity: 0; pointer-events: none; }
+.flip-face[data-pos="on"] { transform: rotateY(0); opacity: 1; }
+
+/* Spotify connect */
+@keyframes trk-dot { 0% { left: -4px; opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { left: calc(100% - 4px); opacity: 0; } }
+@keyframes dash-move { to { background-position: 14px 0; } }
+@keyframes ring-out { 0% { transform: scale(1); opacity: 0.8; } 100% { transform: scale(1.7); opacity: 0; } }
+@keyframes rise-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+.rise-in { animation: rise-in 0.5s both; }
+.perf-line { height: 0; border-top: 2px dashed var(--paper); animation: dash-move 0.9s linear infinite; background: repeating-linear-gradient(90deg, transparent 0 7px, transparent 7px 14px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-face, .perf-line, .rise-in, .backdrop-in { animation: none !important; transition: none !important; }
+}
+
+/* Card rail: the card nearest the middle is full size, the others ease back (scroll-driven, where supported). */
+@keyframes rail-focus {
+  0%, 100% { transform: scale(0.94); opacity: 0.72; }
+  35%, 65% { transform: scale(1); opacity: 1; }
+}
+@supports (animation-timeline: view()) {
+  .rail-card { animation: rail-focus linear both; animation-timeline: view(inline); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rail-card { animation: none !important; }
+}

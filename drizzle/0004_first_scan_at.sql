@@ -1,0 +1,1 @@
+ALTER TABLE "users" ADD COLUMN "first_scan_at" timestamp with time zone;

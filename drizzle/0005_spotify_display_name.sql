@@ -1,0 +1,1 @@
+ALTER TABLE "spotify_connections" ADD COLUMN "display_name" text;

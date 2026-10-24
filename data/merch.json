@@ -1,0 +1,628 @@
+{
+ "_note": "Demo data from store.linkinpark.com (public product feed, USD converted at about Rs 88). Seed with: npx tsx scripts/seed-merch.ts",
+ "products": [
+  {
+   "id": "lp-9342441816295",
+   "artist": "Linkin Park",
+   "name": "LPPL x SUAY LARGE PATCH POUCH",
+   "description": "A large, custom-stitched pouch crafted from upcycled military-green and camouflage fabric in a durable polyester-cotton blend. Featuring a secure top zipper closure and a convenient back storage pocket, the design is fin…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/FMV.LPXSUAYPRODUCT8patch.png?v=1757693539",
+   "priceInr": 3430,
+   "category": "accessory",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9342441619687",
+   "artist": "Linkin Park",
+   "name": "LPPL x SUAY FROM ZERO REWORK JACKET",
+   "description": "Boxy fit anorak jacket. A blend of upcycled nylon and Linkin Park t-shirts with custom screen printed logos on the sides and sleeve loops. All fabric colors, prints, and textures will vary. Each piece is unique, hand-sew…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/FMV.LPXSUAYPRODUCT5.png?v=1757694990",
+   "priceInr": 18920,
+   "category": "jacket",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large",
+    "4X-Large",
+    "5X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 0,
+    "Large": 0,
+    "X-Large": 12,
+    "2X-Large": 12,
+    "3X-Large": 0,
+    "4X-Large": 0,
+    "5X-Large": 0
+   }
+  },
+  {
+   "id": "lp-9342441554151",
+   "artist": "Linkin Park",
+   "name": "LPPL x SUAY LS CORRUGATED MESH JERSEY",
+   "description": "Upcycled relaxed fit long sleeve jersey made from a blend of reworked Linkin Park t-shirts + vintage mesh jerseys with front and back stitched logo patterns featuring a new \"LPPL\" icon patch. All fabric colors, prints, a…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/FMV.LPXSUAYPRODUCT4.png?v=1757694368",
+   "priceInr": 11440,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large",
+    "4X-Large",
+    "5X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 0,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 0,
+    "3X-Large": 0,
+    "4X-Large": 0,
+    "5X-Large": 0
+   }
+  },
+  {
+   "id": "lp-9342441521383",
+   "artist": "Linkin Park",
+   "name": "LPPL x SUAY SS JAPAN REWORK JERSEY",
+   "description": "Upcycled relaxed fit shortsleeve jersey made from a blend of reworked Linkin Park gas mask t-shirts + mesh jerseys. All fabric colors, prints, and textures will vary. Each piece is unique, hand-sewn in downtown Los Angel…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/FMV.LPXSUAYPRODUCT3.png?v=1757697466",
+   "priceInr": 8800,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large",
+    "4X-Large",
+    "5X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12,
+    "3X-Large": 0,
+    "4X-Large": 0,
+    "5X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9342441652455",
+   "artist": "Linkin Park",
+   "name": "LPPL x SUAY 4 PANEL COLORFUL FROM ZERO REWORK TEE",
+   "description": "Relaxed fit short sleeve tee. A combination of upcycled Linkin Park t-shirts make up a 4 panel graphic, including the coveted Sept 5. 2024 \"From Zero Launch Event\" tee. A back shoulder print features a screen printed \"LP…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/FMVLPXSUAYPRODUCT2.png?v=1757694276",
+   "priceInr": 7040,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large",
+    "4X-Large",
+    "5X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 12,
+    "Large": 0,
+    "X-Large": 0,
+    "2X-Large": 0,
+    "3X-Large": 0,
+    "4X-Large": 12,
+    "5X-Large": 0
+   }
+  },
+  {
+   "id": "lp-8801374929127",
+   "artist": "Linkin Park",
+   "name": "LINKIN PARK x rcnstrct studio FABRIC CUTS B&W Shorts",
+   "description": "We recommend referencing the SIZE CHART before placing your order, as there will be no returns or exchanges for this item. Each FABRIC CUTS piece is unique, hand-sewn in downtown Los Angeles by the rcnstrct studio team, …",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/RCNSTRCTSHORTS1.png?v=1713481390",
+   "priceInr": 8360,
+   "category": "pants",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 0,
+    "Large": 0,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-10321943134439",
+   "artist": "Linkin Park",
+   "name": "LPPL VINTAGE TEE V1 (Colors Will Vary)",
+   "description": "Printed on vintage and washed tees from the 90s. One color distressed print on the front and back. Limited to 100 pieces worldwide. Due to vintage blank sourcing and custom garment dyeing, each t-shirt is completely one-…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1548A_LIPPHANTOMLABELBLACKSHIRT_F_d16b2bca-94e6-420c-9a37-9bd0105fe159.png?v=1791486813",
+   "priceInr": 6600,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 0
+   }
+  },
+  {
+   "id": "lp-9725319282919",
+   "artist": "Linkin Park",
+   "name": "Lppl Casualty Washed Zip Hoodie",
+   "description": "Unisex black washed zip-up hoodie featuring matching graphic mirrored down both sleeves. Limited to 300 pieces worldwide. ABOUT PHANTOM LABEL: Phantom Label is an exploration of unique and aspirational ideas that sit abo…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/AM-LinkinPark-22.png?v=1790030736",
+   "priceInr": 11620,
+   "category": "jacket",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 0,
+    "2X-Large": 0
+   }
+  },
+  {
+   "id": "lp-9725318299879",
+   "artist": "Linkin Park",
+   "name": "Lppl Pixel Longsleeve Hockey Jersey",
+   "description": "Unisex long sleeve hockey jersey with V-neck collar. Featuring various patches and prints. Limited to 300 pieces worldwide. ABOUT PHANTOM LABEL: Phantom Label is an exploration of unique and aspirational ideas that sit a…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/AM-LinkinPark-7.png?v=1790029873",
+   "priceInr": 11440,
+   "category": "jersey",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9725317742823",
+   "artist": "Linkin Park",
+   "name": "Lppl Casualty Mesh Football Jersey",
+   "description": "Unisex mesh football jersey in burgundy with LINKIN PARK breathable mesh knit throughout. Limited to 300 pieces worldwide. ABOUT PHANTOM LABEL: Phantom Label is an exploration of unique and aspirational ideas that sit ab…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/AM-LinkinPark-1.png?v=1790029616",
+   "priceInr": 8800,
+   "category": "jersey",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 0
+   }
+  },
+  {
+   "id": "lp-9707135402215",
+   "artist": "Linkin Park",
+   "name": "A Thousand Suns Zip Hoodie",
+   "description": "A reissue of the 2010 version featuring the original A Thousand Suns album booklet artwork by visual artist Josh Vanover.",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1538A_ATSBLACKZIPHOODIE_F.png?v=1789098530",
+   "priceInr": 6160,
+   "category": "hoodie",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9669024514279",
+   "artist": "Linkin Park",
+   "name": "Unshatter Hoodie",
+   "description": "UNSHATTER designs printed on the front and back of a unisex, black zip-up hoodie.",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1520C_LIPUNSHATTERSQUARESPULLOVERHOODIE_B.png?v=1786751451",
+   "priceInr": 6160,
+   "category": "hoodie",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9656193220839",
+   "artist": "Linkin Park",
+   "name": "UNSHATTER Black Zip Hoodie",
+   "description": "UNSHATTER designs printed on the front and back of a unisex, black zip-up hoodie. S M L XL 2XL 3XL BODY WIDTH (INCHES) 23-1/4 25-1/2 25-1/2 26-3/4 28 29 BODY LENGTH (INCHES) 27-1/2 28-1/2 29-1/2 30-1/2 32 33",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1520B_LIPUNSHATTERSQUARESBLACKZIPHOODIE_F.png?v=1785339744",
+   "priceInr": 6160,
+   "category": "hoodie",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9656193089767",
+   "artist": "Linkin Park",
+   "name": "UNSHATTER Black Tee",
+   "description": "UNSHATTER designs printed on the front and back of a unisex black tee. S M L XL 2XL 3XL BODY WIDTH (INCHES) 18 20 22 24 26 28-1/4 BODY LENGTH (INCHES) 28-1/2 29-1/4 30-1/2 31-3/4 32-3/4 33",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1520A_LIPUNSHATTERSQUARESBLACKTEE_F_0e323ec2-c4a0-4575-bbdd-8f7c5c6bdf30.png?v=1785339657",
+   "priceInr": 3080,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9424723869927",
+   "artist": "Linkin Park",
+   "name": "FZ 2026 Tour Sakhir Poster (Jan 18th) - Deyaa Rambo",
+   "description": "Linkin Park has commissioned artist Deyaa Rambo to create artwork for a limited-edition poster for the 2026 From Zero World Tour stop in Sakhir. Each hand-numbered print is limited to 100 copies and is printed on 18\" x 2…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1308A_SAKHIRBAHRAINJANUARY1818X24POSTER.png?v=1766178042",
+   "priceInr": 8800,
+   "category": "poster",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9424723837159",
+   "artist": "Linkin Park",
+   "name": "FZ 2026 Tour Bengaluru Poster (Jan 23rd) - Karan Singh",
+   "description": "Linkin Park has commissioned artist Karan Singh to create artwork for a limited-edition poster for the 2026 From Zero World Tour stop in Bengaluru. Each hand-numbered print is limited to 100 copies and is printed on 18\" …",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1304A_BENGALURUINDIAJANUARY2318X24POSTER.png?v=1766178060",
+   "priceInr": 8800,
+   "category": "poster",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9422204338407",
+   "artist": "Linkin Park",
+   "name": "F1 Sticker Pack",
+   "description": "Pack of 5 exclusive Linkin Park x Formula 1 stickers.",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/F1STICKERS1.png?v=1768326465",
+   "priceInr": 2200,
+   "category": "accessory",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9377130447079",
+   "artist": "Linkin Park",
+   "name": "From Zero Commemorative Ticket Magnet Newark (Aug 3rd)",
+   "description": "Commemorative acrylic magnet featuring a ticket from the Newark 2025 show. 5\"x2\"",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1101A_NEWARKMAGNET.png?v=1761255110",
+   "priceInr": 1760,
+   "category": "accessory",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9377130250471",
+   "artist": "Linkin Park",
+   "name": "From Zero Commemorative Ticket Magnet Boston (July 31st)",
+   "description": "Commemorative acrylic magnet featuring a ticket from the Boston 2025 show. 5\"x2\"",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1100A_BOSTONMAGNET_89ae6d1a-0652-4750-8e6a-7fdb0023bed6.png?v=1761255239",
+   "priceInr": 1760,
+   "category": "accessory",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9377130643687",
+   "artist": "Linkin Park",
+   "name": "LP FZ DETROIT COMMEMORATIVE TICKET MAGNET (Aug 14th)",
+   "description": "Commemorative acrylic magnet featuring a ticket from the Detroit 2025 show. 5\"x2\"",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1105A_DETROITMAGNET.png?v=1761850030",
+   "priceInr": 1760,
+   "category": "accessory",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9385059123431",
+   "artist": "Linkin Park",
+   "name": "From Zero Deluxe Tour Exclusive Variant Vinyl",
+   "description": "Limited deluxe edition pressing exclusive to the world tour.",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/FromZeroDeluxeTourExclusiveVariantVinyl.png?v=1783450296",
+   "priceInr": 4840,
+   "category": "vinyl",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9377129890023",
+   "artist": "Linkin Park",
+   "name": "Fz Black Swirl White Tee",
+   "description": "Unisex white tee featuring black swirl design on front. S M L XL 2XL Body Width 18 in 20 in 22 in 24 in 26 in Body Length 28.5 in 29.5 in 30.5 in 31.5 in 32.5 in",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP817A_FZBLACKSWIRLWHITETEE.png?v=1761763983",
+   "priceInr": 3960,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 12,
+    "Large": 0,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9377129857255",
+   "artist": "Linkin Park",
+   "name": "Official From Zero World Tour 2025 Black Tour Tee #2",
+   "description": "Unisex black body featuring the a texture filled LP morph icon on front with 2024 - 2025 tour dates on back. S M L XL 2XL 3XL Body Width 18 in 20 in 22 in 24 in 26 in 28 in Body Length 28.5 in 29.5 in 30.5 in 31.5 in 32.…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP582C_OFFICIALFROMZEROWORLDTOUR2024BLACKTOURTEESM-LG_F_bc6a32ac-bd88-4d40-a17a-5bf2277e08bf.png?v=1761764023",
+   "priceInr": 3960,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 0,
+    "Large": 0,
+    "X-Large": 12,
+    "2X-Large": 12,
+    "3X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9392237281511",
+   "artist": "Linkin Park",
+   "name": "FZ Logo Swirl Black Hoodie",
+   "description": "Unisex black zip-up hoodie featuring \"Linkin Park\" morph logo on front left chest and large swirl logo graphic on back. S M L XL 2XL 3XL Body Width 21 in 23 in 24.5 in 26.5 in 27.5 in 28.5 in Body Length 28.5 in 29.5 in …",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/FZLogoSwirlBlackHoodie.png?v=1787596516",
+   "priceInr": 6160,
+   "category": "hoodie",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12,
+    "3X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9377129955559",
+   "artist": "Linkin Park",
+   "name": "Brooklyn Projects LA Black Zip Hoodie",
+   "description": "Limited edition hoodie produced in collaboration with Brooklyn Projects. Unisex black zip-up hoodie featuring the LP and Brooklyn Projects logos stacked on front left chest and exclusive From Zero design on back.",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/ZipHoodieBackDone.png?v=1764692550",
+   "priceInr": 8360,
+   "category": "tee",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large"
+   ],
+   "stock": {
+    "Small": 12,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9382458687719",
+   "artist": "Linkin Park",
+   "name": "Liquidate Black Pullover Hoodie",
+   "description": "Unisex black hooded pullover featuring a liquid morph icon design on front left chest and back and \"Linkin Park\" liquid logo on left sleeve. 75% cotton / 25% polyester S M L XL 2X 3X Chest Width 23.25 24.5 25.25 26.75 28…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LiquidateBlackPulloverHoodie.png?v=1787596409",
+   "priceInr": 6160,
+   "category": "hoodie",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 12,
+    "Large": 12,
+    "X-Large": 12,
+    "2X-Large": 12,
+    "3X-Large": 12
+   }
+  },
+  {
+   "id": "lp-9369192956135",
+   "artist": "Linkin Park",
+   "name": "Joe's Spray Logo Black Hoodie",
+   "description": "Unisex black zip-up hoodie featuring an original spray paint logo design by Joe Hahn small on front left chest and large on back. S M L XL 2XL 3XL 4XL 5XL Body Width 21 in 23 in 24.5 in 26.5 in 27.5 in 28.5 in 30 in 31.5…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/Joe_sSprayLogoBlackHoodie.png?v=1787596483",
+   "priceInr": 6160,
+   "category": "hoodie",
+   "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "2X-Large",
+    "3X-Large",
+    "4X-large",
+    "5X-Large"
+   ],
+   "stock": {
+    "Small": 0,
+    "Medium": 12,
+    "Large": 0,
+    "X-Large": 0,
+    "2X-Large": 12,
+    "3X-Large": 12,
+    "4X-large": 12,
+    "5X-Large": 0
+   }
+  },
+  {
+   "id": "lp-9369603375335",
+   "artist": "Linkin Park",
+   "name": "FZ 2025 Tour Sao Paulo Poster #2 (Nov 8th) - Cranio",
+   "description": "Linkin Park has commissioned artist Cranio to create artwork for a limited-edition poster for the 2025 From Zero World Tour stop in Sao Paulo. Each hand-numbered print is limited to 100 copies and is printed on 18\" x 24\"…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1233A_BRASILIANOVEMBER1118X24POSTER_SIGNED_1.png?v=1760035729",
+   "priceInr": 8800,
+   "category": "poster",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  },
+  {
+   "id": "lp-9365339963623",
+   "artist": "Linkin Park",
+   "name": "FZ 2025 Tour Brasilia Poster (Nov 11th) - Greg \"Craola\" Simkins",
+   "description": "Linkin Park has commissioned artist Greg \"Craola\" Simkins to create artwork for a limited-edition poster for the 2025 From Zero World Tour stop in Brasilia. Each hand-numbered print is limited to 100 copies and is printe…",
+   "image": "https://cdn.shopify.com/s/files/1/2117/2713/files/LIP1233A_BRASILIANOVEMBER1118X24POSTER_SIGNED.png?v=1760027743",
+   "priceInr": 8800,
+   "category": "poster",
+   "sizes": [
+    "Free"
+   ],
+   "stock": {
+    "Free": 12
+   }
+  }
+ ]
+}
